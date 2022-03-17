@@ -154,7 +154,7 @@ html{
 }
 /*---------------------------------------*/
 /*---------------------------------------*/
-.socialIcons{
+/*.socialIcons{
     list-style:none;
     position:absolute;
     z-index:1;
@@ -176,7 +176,7 @@ html{
     padding:26px;
     border-radius:80px;
     z-index:-1;
-}
+}*/
 /*------------*/
 .btn-perfil{
     list-style:none;
@@ -284,8 +284,8 @@ html{
   top: -7px;
   left: -5px;
   cursor: pointer;
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0;
+  z-index: 2;
   -webkit-touch-callout: none;
 }
 .menuToggle span{
@@ -338,9 +338,7 @@ html{
   padding: 10px 0;
   font-size: 22px;
 }
-/*
- * And let's slide it in from the left
- */
+
 .menuToggle input:checked ~ ul{
   transform: none;
 }
@@ -354,7 +352,7 @@ html{
 .menu{
     list-style:none;
     overflow:hidden;
-    margin-left:60%;
+    margin-left:55%;
 }
 .sticky{
     position:fixed;
@@ -382,18 +380,17 @@ li:nth-child(1):hover ~ .line{
     opacity:1;
 }
 li:nth-child(2):hover ~ .line{
-    transform:translate(173px);
+    transform:translate(120px);
     transition:all .4s ease-in-out;
     display:block;
     opacity:1;
 }
-/*
 li:nth-child(3):hover ~ .line{
-    transform:translate(300px);
+    transform:translate(290px);
     transition:all .4s ease-in-out;
     opacity:1;
 }
-li:nth-child(4):hover ~ .line{
+/*li:nth-child(4):hover ~ .line{
     transform:translate(500px);
     transition:all .4s ease-in-out;
     opacity:1;
@@ -750,6 +747,10 @@ li:nth-child(5):hover ~ .line{
 /*---------------------------------------*/
 /*--------------Diseño Web---------------*/
 /*---------------------------------------*/
+.applogo{
+  padding:5px;
+  margin-top:10px;
+}
 .int-headerPic{
     margin-left:30%;
     margin-top:-25px;
@@ -799,11 +800,12 @@ li:nth-child(5):hover ~ .line{
       opacity: 1;
 }
 .int-section{
-    padding-top:0px;
-    padding-left:130px;
+    padding-top:80px;
+    padding-left:180px;
 }
 .int-1stImg{
-    margin-left:6%;
+    margin-left:0%;
+    margin-bottom: 5%;
 }
 .int-concept{
     margin-top:0;
@@ -827,11 +829,54 @@ li:nth-child(5):hover ~ .line{
     margin-left:12%;
     width:850px;
     height:475px;
-    padding-bottom:50px;
+    padding-bottom:0px;
+}
+#wrap { width: 850px; height: 475px; padding: 0; overflow: hidden; }
+#frame { width: 1200px; height: 700px; margin-bottom:-100px; border-style: dotted; border-width:
+1px; border-color: #333; border-spacing: 5px; overflow: hidden;}
+ #frame {
+        -ms-zoom: 0.75;
+        -moz-transform: scale(0.75);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.75);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.75);
+        -webkit-transform-origin: 0 0;
+        overflow:hidden;
 }
 .webImg2{
     flex-wrap:wrap;
     margin-top:0px;
+}
+.interactivo-btn{
+  position: absolute;
+  z-index: 1;
+  margin-left: 3%;
+  cursor: pointer;
+}
+.mockup{
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+.mockup:hover{
+  margin-left: 40px;
+  transition: 0.5s ease;
+}
+.mockup-box{
+  z-index: -1;
+  width: 1000px;
+  height: 518px;
+  display: block;
+  background-color: #555;
+  position: absolute;
+  margin:0;
+}
+.mockup-box p{
+  color: white;
+  transform: rotate(-90deg);
+  padding-left:50%;
+  padding-bottom: 96%;
 }
 .imgs-TS{
     padding: 15px;
@@ -1288,13 +1333,13 @@ li:nth-child(5):hover ~ .line{
   100% { width: 80%; background-color: #71292C;}
 }
 /*-----------------*/
-.socialIcons-p{
+/*.socialIcons-p{
     list-style:none;
     position:absolute;
     z-index:1;
     margin-left:-45%;
     justify-content:flex-end;
-}
+}*/
 .icon-p{
     padding:10px;
     overflow:hidden;
@@ -1420,9 +1465,9 @@ li:nth-child(5):hover ~ .line{
 }
 /*---------------------------------------*/
 /*---------------------------------------*/
-.socialIcons{
+/*.socialIcons{
     margin-left:-100px;
-}
+}*/
 /*------------*/
 .mainLogo{
     margin-top:180px;
@@ -1566,6 +1611,7 @@ li:nth-child(5):hover ~ .line{
 }
 .int-1stImg{
     margin-left:0%;
+    margin-bottom: 15px;
 }
         .img2{
             width:100%;
@@ -1994,9 +2040,9 @@ li:nth-child(5):hover ~ .line{
 }
 /*---------------------------------------*/
 /*---------------------------------------*/
-.socialIcons{
+/*.socialIcons{
     margin-left:-50px;
-}
+}*/
 /*------------*/
 .btn-perfil{
     margin-left:-10px;
@@ -2609,10 +2655,10 @@ li:nth-child(5):hover ~ .line{
   width:80%;
 }
 /*-----------------*/
-.socialIcons-p{
+/*.socialIcons-p{
     position:relative;
     margin-left:-30%;
-}
+}*/
 /*---------------------------------------*/
 /*--------------Contacto-----------------*/
 /*---------------------------------------*/
@@ -2768,9 +2814,9 @@ li:nth-child(5):hover ~ .line{
 }
 /*---------------------------------------*/
 /*---------------------------------------*/
-.socialIcons{
+/*.socialIcons{
     margin-left:-50px;
-}
+}*/
 /*------------*/
 .btn-perfil{
     margin-left:-10px;
@@ -3382,10 +3428,10 @@ li:nth-child(5):hover ~ .line{
   width:80%;
 }
 /*-----------------*/
-.socialIcons-p{
+/*.socialIcons-p{
     position:relative;
     margin-left:-30%;
-}
+}*/
 /*---------------------------------------*/
 /*--------------Contacto-----------------*/
 /*---------------------------------------*/
@@ -3539,9 +3585,9 @@ li:nth-child(5):hover ~ .line{
 }
 /*---------------------------------------*/
 /*---------------------------------------*/
-.socialIcons{
+/*.socialIcons{
     margin-left:-50px;
-}
+}*/
 /*------------*/
 .btn-perfil{
     margin-left:-10px;
@@ -4186,10 +4232,10 @@ li:nth-child(5):hover ~ .line{
   width:80%;
 }
 /*-----------------*/
-.socialIcons-p{
+/*.socialIcons-p{
     position:relative;
     margin-left:-30%;
-}
+}*/
 /*---------------------------------------*/
 /*--------------Contacto-----------------*/
 /*---------------------------------------*/
@@ -4207,48 +4253,41 @@ li:nth-child(5):hover ~ .line{
 }
 
 
-
-
-
-
-
-
-
+/*-------------------------------------
+---------------------------------------
+-------------------------------------*/
 /*----------TEST------------*/
 .bodytest{
   background-color: rgb(58, 58, 58);
   margin-top: 100px;
-        }
-
-
+}
 .carousel-container {
   width: 1000px;
-  height: 580px;
+  height: 700px;
   position: relative;
   margin: 0 auto;
-
-}
-.navigation .prev {
-  position: absolute;
-  z-index: 10;
-  font-size: 25px;
-  top: 40%;
-  left: 10px;
-  font-weight: 700;
 }
 .navigation .next {
-  right: 10px;
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 45%;
+  left: -50px;
+  font-weight: 700;
+}
+.navigation .prev {
+  right: -50px;
   position: absolute;
   font-size: 25px;
   z-index: 10;
-  top: 40%;
+  top: 45%;
 }
 .navigation .nav-btn {
-  background: rgba(75, 75, 75, 0.55);
+  background: rgba(150, 150, 150, 0.55);
   cursor: pointer;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4272,16 +4311,79 @@ li:nth-child(5):hover ~ .line{
     }
 }
 .carousel img{
+  margin:auto;
   width: 100%;
   transition: all 0.3s ease;
   border:1px solid white;
   animation: img 0.6s;
 }
 .item {
-  position: absolute;
+  position:absolute;
   display: none;
-    width: 100%;
+  width: 100%;
+  margin-top:80px;
 }
 .main {
   display: block;
+}
+/*-------------------------------------
+---------------------------------------
+-------------------------------------*/
+.scrollFade {
+  opacity: 1;
+  pointer-events: all;
+}
+.scrollFade--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.scrollFade--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+.scrollFade--animate {
+  transition: opacity 0.4s ease-in-out;
+}
+/*-------------------------------------
+---------------------------------------
+-------------------------------------*/
+.cover{
+  display: block;
+  position: absolute;
+  visibility: visible;
+  width:1314px;
+  height:968px;
+  background: rgb(0,0,0,0);
+  cursor: pointer;
+  margin-left:30%;
+  margin-top:-25px;
+  z-index: 1;
+}
+.CoverBox{
+    z-index: 2;
+    width: 700px;
+    /*width: 50%;*/
+    height: 968px;
+    /*height: 100%;*/
+    margin-left: 2500px;
+    /*margin-left: -50%;*/
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all: 0.8s ease;
+    transitions: all 0.8s ease;
+    background: rgba(0,0,0,0.5);
+}
+.cover:hover > .CoverBox{
+    margin-left: 700px;
+}
+.CoverBox p{
+    color: white;
+    margin: 0;
+    padding: 450px 200px 0px 30px;
+}
+.socialIcons{
+  padding: 10px;
+}
+.socialIconsMargin{
+  margin:10px;
 }
