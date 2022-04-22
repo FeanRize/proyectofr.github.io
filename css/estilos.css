@@ -822,14 +822,26 @@ li:nth-child(5):hover ~ .line{
     justify-content:space-around;
 }
 .video-web3{
-    margin-left:12%;
+    margin-left:10%;
     width:850px;
     height:475px;
     padding-bottom:0px;
 }
-#wrap { width: 850px; height: 475px; padding: 0; overflow: hidden; }
-#frame { width: 1200px; height: 700px; margin-bottom:-100px; border-style: dotted; border-width:
-1px; border-color: #333; border-spacing: 5px; overflow: hidden;}
+/*#wrap {
+  width: 850px;
+  height: 475px;
+  padding: 0;
+  overflow: hidden; }*/
+#frame {
+  min-width: 1300px;
+  height: 700px;
+  margin-bottom:-100px;
+  border-style: dotted;
+  border-width:2px;
+  border-color: #333;
+  border-spacing: 5px;
+  overflow: hidden;
+}
  #frame {
         -ms-zoom: 0.75;
         -moz-transform: scale(0.75);
@@ -847,7 +859,7 @@ li:nth-child(5):hover ~ .line{
 .interactivo-btn{
   position: absolute;
   z-index: 1;
-  margin-left: 3%;
+  margin-left: 30%;
   cursor: pointer;
 }
 .mockup{
